@@ -3,7 +3,7 @@
   "description": "Use Amazon SES with Meteor",
   "homepage": "https://github.com/ServiceLocale/Meteor-SES",
   "author": "Akshat Khatri",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "git": "https://github.com/ServiceLocale/Meteor-SES",
   "packages": {
     "meteor-nodemailer": {}
