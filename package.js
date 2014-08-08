@@ -5,7 +5,7 @@ Package.describe({
 
 Package.on_use(function (api) {
 	if(api.versionsFrom) api.versionsFrom("METEOR-CORE@0.9.0-atm");
-	api.use(['meteor-nodemailer', 'email'], 'server');
-	api.imply(['meteor-nodemailer', 'email'], 'server');
+	api.use(['mrt:meteor-nodemailer', 'email'], 'server');
+	api.imply(['mrt:meteor-nodemailer', 'email'], 'server');
 	api.add_files('lib.js', 'server');
 });
